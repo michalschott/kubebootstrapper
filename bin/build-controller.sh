@@ -10,4 +10,5 @@ set -eu
     docker build controller -t controller:$tag
     echo "docker run --rm controller:$tag"
     kind load docker-image controller:$tag
+    kubectl -n kubebootstrapper delete pod --all
 )

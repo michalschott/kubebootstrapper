@@ -14,6 +14,7 @@ require (
 	github.com/imdario/mergo v0.3.11 // indirect
 	github.com/sirupsen/logrus v1.7.0
 	github.com/spf13/cobra v1.0.0
+	gopkg.in/yaml.v2 v2.3.0
 	k8s.io/api v0.19.2
 	k8s.io/apimachinery v0.19.2
 	k8s.io/client-go v0.19.2

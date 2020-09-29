@@ -1,0 +1,4 @@
+channel:
+    path: "/stable-2020.gz"
+    shasum: 12345
+    update: 202009201648

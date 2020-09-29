@@ -18,6 +18,10 @@ CLI to install/uninstall controller into your k8s cluster. Inspired by [linkerd2
 
 Simple control-loop style application which will fetch manifests from [S3-compatible place, alpha/beta/stable channel], and based on the user-configuration apply part of them.
 
+# http
+
+HTTP server to store and distribute manifest data.
+
 # dev
 
 Requirements: `kind create cluster`
